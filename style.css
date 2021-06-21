@@ -1,3 +1,33 @@
-h1 {
-    Color: green;
-}
+h1 { 
+    color: red;
+         font-family: lobster; 
+    font-size: 55px;
+    text-align: center ;
+    
+    background-color: black;
+  
+   -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+ }
+ 
+ P {
+  font-family: verdana;
+   font-size: 18px;
+  
+ }
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+ }
+
+  h1.p::first-letter {
+    Color: red;
+    font-weight: bold;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size:  80px;
+    margin-right: 6px;
+    float: left; 
+  }
+     
